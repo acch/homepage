@@ -1,0 +1,29 @@
+heading: Public Presentations
+entries:
+
+- title: Introduction to Active File Management (AFM)
+  href: https://apps.na.collabserv.com/files/app/file/692ca1ef-3a11-4b54-a013-bfa13a28cb72
+  sub:
+    title: Spectrum Spectrum Scale Strategy Days 2017
+    href: http://files.gpfsug.org/presentations/2017/Ehningen/18_-_SSUG17DE_-_Achim_Christ,_Karl_Schulz_-_AFM_Introduction_and_Use_Cases.pdf
+
+- title: Spectrum Scale Concepts and Architectu​res
+  href: https://w3-connections.ibm.com/files/app#/file/19fbaf1c-9ed3-4929-810d-26df79d9dc0d
+
+- title: Storwize V7000 Unified used as backup solution for IBM PureData System for Analytics (Netezza) &ndash; Solution Overview
+  href: https://w3-connections.ibm.com/files/app#/file/dfa91228-bede-41a0-bef1-5b8d9a6d2b5d
+
+- title: "Academic Initiative: IT Infrastructure Management"
+  href: https://w3-connections.ibm.com/files/app#/file/43709438-4e7b-4bd1-8d7e-f6f3ba09c803
+
+- title: Storwize V7000 Unified &ndash; Technical Deep Dive
+  href: https://w3-connections.ibm.com/communities/service/html/communityview?communityUuid=62403fe9-4746-4951-acff-b7f0d6b9e82c#fullpageWidgetId=W25416ac37406_4b77_99ff_038b83771f61&file=3c69eb84-7c4d-4f5b-999c-459d9d683b30
+
+- title: Information Archive &ndash; Field Experience
+  href: https://w3-connections.ibm.com/files/app#/file/f390af12-f81f-4aec-855e-245071623b83
+
+- title: Information Archive &ndash; Technical Overview
+  href: https://w3-connections.ibm.com/files/app#/file/9f8ec590-498d-434a-af09-660e3a8a7cb4
+
+- title: Tivoli Storage Productivity Center &ndash; Technical Introduction
+  href: https://w3-connections.ibm.com/files/app#/file/efae9821-5ced-4e28-b157-3b3025056a6c

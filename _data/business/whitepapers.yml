@@ -1,0 +1,42 @@
+heading: Whitepapers
+entries:
+
+- title: Spectrum Scale &ndash; Sharing Data across File Protocols
+  href: https://apps.na.collabserv.com/files/app/file/5f72855a-9246-46c0-ad46-0c4442c7ff49
+  sub:
+    prefix: Published on
+    title: Techdocs
+    href: https://www.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102691
+
+- title: Spectrum Scale &ndash; Automation of storage services
+  href: https://w3-connections.ibm.com/files/app#/file/fc91e44d-8d8b-4891-8e9a-678033641330
+  sub:
+    prefix: Published on
+    title: Techdocs
+    href: https://www.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102676
+
+- title: Easy enterprise file sync and share solution combining ownCloud application and IBM Storwize V7000 Unified
+  href: https://w3-connections.ibm.com/files/app#/file/e22388b0-ab09-4aee-8907-d69c326f0984
+  sub:
+    prefix: Published on
+    title: Techdocs
+    href: https://w3.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102533
+
+- title: Spectrum Scale Information Lifecycle Management Policies &ndash; Practical guide
+  href: https://w3-connections.ibm.com/files/app#/file/32e588ee-c8dc-40c1-8170-f91c1faef24d
+  sub:
+    prefix: Published on
+    title: Techdocs
+    href: https://w3.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102642
+
+- title: Storwize V7000 Unified ACL Modes and Migration Options
+  href: https://w3-connections.ibm.com/communities/service/html/communityview?communityUuid=62403fe9-4746-4951-acff-b7f0d6b9e82c#fullpageWidgetId=W25416ac37406_4b77_99ff_038b83771f61&file=50ae52c6-a941-4b58-8493-93cdccf7f4de
+
+- title: A TPC Standby Solution &ndash; User's Guide
+  href: https://w3-connections.ibm.com/files/app#/file/4a72b372-98ce-426c-b7de-c08648b256cf
+
+- title: IA File archive collection Backup and Recovery &ndash; Concept and implementation guide
+  href: https://w3.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP101934
+
+- title: System Storage Productivity Center (SSPC) Basic Integration &ndash; Perform Guide
+  href: https://w3-connections.ibm.com/files/app#/file/5752034c-5318-4403-90ac-cdd6064a16d4

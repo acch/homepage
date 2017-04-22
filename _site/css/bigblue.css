@@ -1,0 +1,66 @@
+/* -------------------------------------------------------------------------- *\
+   style - CSS stylesheet
+   --------------------------------------------------------------------------
+
+   This file is part of Achim Christ's personal homepage.
+   https://github.com/acch/about
+
+   Copyright 2017 Achim Christ
+
+\* -------------------------------------------------------------------------- */
+
+body {
+  color: #162840;
+}
+
+h1 {
+  margin-top: .5rem;
+}
+
+h2:not(:first-child) {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+nav a,
+nav a:focus,
+nav a:hover {
+  color: #fff;
+}
+
+nav div {
+  padding: 0 .5rem;
+}
+
+dl {
+  margin-left: 1rem;
+}
+
+header, footer {
+  background-color: #4178be;
+  background-image: url("/img/ibm.png");
+  background-repeat: no-repeat;
+  background-position: 99% center;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.ribbon {
+  background-color: #4178be;
+
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .ribbon {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+  }
+}
