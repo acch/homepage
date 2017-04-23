@@ -1,32 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Achim Christ">
-
-    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-    <!-- Custom CSS -->
-    <style type="text/css">
-      {% capture stylecss %}
-        {% include bigblue.scss %}
-      {% endcapture %}
-      {{ stylecss | scssify }}
-    </style>
-
-  </head>
+  {% include head.html style='bigblue.scss' %}
 
   <body>
 
@@ -38,7 +13,7 @@
       <div class="row flex-column flex-md-row justify-content-center">
 
         <div class="text-center">
-          <img src="{{ "/img/portrait.jpg" | relative_url }}" class="rounded" alt="Portrait Achim Christ" width="230px" height="230px" />
+          <img src="{{ "/img/portrait.jpg" | relative_url }}" class="rounded" alt="Portrait {{ page.author }}" width="230px" height="230px" />
         </div><!-- /col -->
 
         <div class="[ text-center text-md-left ] px-4">
