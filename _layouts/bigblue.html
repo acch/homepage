@@ -13,7 +13,7 @@
       <div class="row flex-column flex-md-row justify-content-center">
 
         <div class="text-center">
-          <img src="{{ "/img/portrait.jpg" | relative_url }}" class="rounded" alt="Portrait {{ page.author }}" width="230px" height="230px" />
+          <img src="{{ "/img/portrait.jpg" | relative_url }}" class="rounded" alt="Portrait {{ page.author | default: site.author }}" width="230px" height="230px" />
         </div><!-- /col -->
 
         <div class="[ text-center text-md-left ] px-4">
@@ -89,7 +89,7 @@
         </p>
       </blockquote>
 
-    </div>
+    </div><!-- /container -->
 
     <div class="container">
 
