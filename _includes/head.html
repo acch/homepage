@@ -9,14 +9,10 @@
 
   <title>{{ page.title | default: site.title | escape }}</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  {% include bs_head.html %}
 
-  <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-  <!-- Custom CSS -->
   {% if include.style %}
+    <!-- Custom inline CSS -->
     <style type="text/css">
       {% capture style %}
         {% include {{ include.style }} %}
