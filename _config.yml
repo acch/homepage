@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Achim's Homepage
 author: Achim Christ
+exclude: ['img']
+include: ['img/min']
