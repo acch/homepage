@@ -17,7 +17,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     clean: {
-      docs: [
+      site: [
         '<%= imagemin.site.dest %>*'
       ]
     },
@@ -26,8 +26,8 @@ module.exports = function(grunt) {
       site: {
         expand: true,
         flatten: true,
-        src: 'img/*.{png,jpg,gif}',
-        dest: 'img/min/'
+        src: 'imgsrc/*.{png,jpg,gif}',
+        dest: 'img/'
       }
     }
 
