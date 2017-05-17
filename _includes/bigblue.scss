@@ -12,11 +12,12 @@ h2:not(:first-child) {
   border-top: 1px solid rgba(0,0,0,.1);
 }
 
-// TODO: use mixin instead
-nav a,
-nav a:focus,
-nav a:hover {
-  color: #fff;
+nav a {
+  &,
+  &:focus,
+  &:hover {
+    color: #fff;
+  }
 }
 
 nav div {
@@ -37,6 +38,10 @@ header, footer {
   padding-bottom: 1rem;
 }
 
+.jumbotron {
+  background: radial-gradient(circle farthest-side at center, #000 0%, #eceeef 100%);
+}
+
 .ribbon {
   background-color: #4178be;
 
@@ -45,11 +50,8 @@ header, footer {
 
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
 
-// TODO: use mixin instead
-@media (min-width: 768px) {
-  .ribbon {
+  @media (min-width: 768px) {
     position: sticky !important;
     top: 0;
     z-index: 1000;
