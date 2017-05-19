@@ -1,4 +1,9 @@
 theme: jekyll-theme-cayman
 title: Achim's Homepage
 author: Achim Christ
-exclude: ['imgsrc']
+exclude: [
+  'Gemfile*',
+  'Gruntfile.js',
+  'imgsrc',
+  'node_modules',
+  'package.json']
