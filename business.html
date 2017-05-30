@@ -9,19 +9,25 @@ description:
 {% for category_hash in datafiles %}
   {% assign category = category_hash[1] %}
 
-  <h2 id="{{ category.heading | slugify }}">{{ category.heading }}</h2>
+  <div class="card mb-5">
+    <div class="card-block">
 
-  <dl>
+      <h2 id="{{ category.heading | slugify }}" class="card-title">{{ category.heading }}</h2>
 
-    {% for entry in category.entries %}
-      <dt>
-        <a href="{{ entry.href }}">{{ entry.title }}</a>
-        {% if entry.sub %}
-          <small>({{ entry.sub.prefix }} <a href="{{ entry.sub.href }}">{{ entry.sub.title }}</a>)</small>
-        {% endif %}
-      </dt>
-    {% endfor %}
+      <dl class="card-text">
 
-  </dl>
+        {% for entry in category.entries %}
+          <dt>
+            <a href="{{ entry.href }}">{{ entry.title }}</a>
+            {% if entry.sub %}
+              <small>({{ entry.sub.prefix }} <a href="{{ entry.sub.href }}">{{ entry.sub.title }}</a>)</small>
+            {% endif %}
+          </dt>
+        {% endfor %}
+
+      </dl>
+
+    </div><!-- /card-block -->
+  </div><!-- /card -->
 
 {% endfor %}

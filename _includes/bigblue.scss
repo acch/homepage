@@ -6,12 +6,6 @@ h1 {
   margin-top: .5rem;
 }
 
-h2:not(:first-child) {
-  margin-top: 3rem;
-  padding-top: 3rem;
-  border-top: 1px solid rgba(0,0,0,.1);
-}
-
 nav a {
   &,
   &:focus,
@@ -22,10 +16,6 @@ nav a {
 
 nav div {
   padding: 0 .5rem;
-}
-
-dl {
-  margin-left: 1rem;
 }
 
 header, footer {
@@ -58,4 +48,8 @@ header, footer {
     top: 0;
     z-index: 1000;
   }
+}
+
+.card-text {
+  margin-left: 1rem;
 }
