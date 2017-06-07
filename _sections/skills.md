@@ -1,3 +1,6 @@
+---
+---
+
 Primary skills:
 (things I do every day)
 - IBM Software Defined Storage
@@ -26,4 +29,3 @@ Ancient skills:
 - PHP
 - SQL
 - Ruby
-

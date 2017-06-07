@@ -1,5 +1,8 @@
 title: Achim's Homepage
 author: Achim Christ
+collections:
+  sections:
+    output: false
 exclude: [
   'Gemfile*',
   'Gruntfile.js',
