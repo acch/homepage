@@ -8,4 +8,5 @@ exclude: [
   'Gruntfile.js',
   'imgsrc',
   'node_modules',
-  'package.json']
+  'package.json',
+  'README.md']
