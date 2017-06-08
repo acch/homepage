@@ -9,30 +9,11 @@
       &nbsp;
     </header>
 
-    <div class="jumbotron" role="banner">
-      <div class="row flex-column flex-md-row justify-content-center">
-
-        <div class="text-center">
-          <img src="{{ "/img/portrait.jpg" | relative_url }}" class="rounded" alt="Portrait {{ page.author | default: site.author }}" width="230px" height="230px" />
-        </div><!-- /col -->
-
-        <div class="[ text-center text-md-left ] px-4">
-          <h1 class="display-3">Achim Christ</h1>
-          <p class="lead text-muted ml-3">
-            Master Certified IT Specialist<br />
-            IBM Systems<br />
-            Storage Lab Services<br />
-            Software Defined Infrastructure
-          </p>
-        </div><!-- /col -->
-
-      </div><!-- /row -->
-    </div><!-- /jumbotron -->
+    {% include business/banner.html %}
 
     {% include business/ribbon.html %}
 
     <div class="container">
-
       <div class="lead mb-5">
 
         {% capture about %}
@@ -40,8 +21,7 @@
         {% endcapture %}
         {{ about | markdownify }}
 
-      </div>
-
+      </div><!-- /lead -->
     </div><!-- /container -->
 
     <div class="container">
