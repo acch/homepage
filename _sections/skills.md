@@ -1,4 +1,5 @@
 ---
+title: Skills
 ---
 
 Primary skills:
