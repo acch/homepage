@@ -1,6 +1,15 @@
+$base-color:        #2e3436;
+$base-color-light:  lighten($base-color, 10%);
+$base-color-dark:   darken($base-color, 10%);
+
 body {
-  background: #2e3436 url(/img/noise.png);
+  background: $base-color url(/img/noise.png);
   background-repeat: repeat;
 
-  color: #ffffff;
+  color: #eceeef;
+}
+
+.card {
+  background: $base-color-light;
+  border: none;
 }
