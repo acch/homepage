@@ -13,3 +13,11 @@ body {
   background: $base-color-light;
   border: none;
 }
+
+.name {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+.name span {
+  font-size: 5.5rem;
+}
