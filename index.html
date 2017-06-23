@@ -7,19 +7,38 @@ lang: en-US
 
 {% for section in site.sections %}
 
-  <div class="row justify-content-md-center">
-    <div class="col-12 col-md-10">
-      <div class="card">
-        <div class="card-block">
+  {% capture rowclass %}
+    {% case section.type %}
 
-          <h3 class="card-title">{{ section.title }}</h3>
+      {% when 'container' %}
+        justify-content-md-center
+      {% when 'container-fluid' %}
 
-          {{ section.content }}
+    {% endcase %}
+  {% endcapture %}
 
-        </div>
-      </div>
-    </div>
-  </div>
+  {% capture colclass %}
+    {% case section.type %}
+
+      {% when 'container' %}
+        col-12 col-md-10
+      {% when 'container-fluid' %}
+        col-12
+
+    {% endcase %}
+  {% endcapture %}
+
+  <div class="row {{ rowclass | strip }}">
+    <div class="{{ colclass | strip }}">
+      <div class="card card-block">
+
+        <h3 class="card-title">{{ section.title }}</h3>
+
+        {{ section.content }}
+
+      </div><!-- /card -->
+    </div><!-- /col -->
+  </div><!-- /row -->
 
   <div class="row">
     <div class="col">&nbsp;</div>

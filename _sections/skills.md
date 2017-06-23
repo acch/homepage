@@ -1,5 +1,6 @@
 ---
 title: Skills
+type: container
 ---
 
 Primary skills:
