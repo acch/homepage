@@ -9,22 +9,19 @@ lang: en-US
 
   {% capture rowclass %}
     {% case section.width %}
-
       {% when 'fixed' %}
-        justify-content-md-center
+        {{ site.width_fixed_row }}
       {% when 'full' %}
-
+        {{ site.width_full_row }}
     {% endcase %}
   {% endcapture %}
 
   {% capture colclass %}
     {% case section.width %}
-
       {% when 'fixed' %}
-        col-12 col-md-10
+        {{ site.width_fixed_col }}
       {% when 'full' %}
-        col-12
-
+        {{ site.width_full_col }}
     {% endcase %}
   {% endcapture %}
 
