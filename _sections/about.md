@@ -1,6 +1,6 @@
 ---
 title: About
-type: container
+width: full
 ---
 
 I work for an international technology company, but I still can't seem to keep my hands off the keyboard in my free time.

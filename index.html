@@ -8,21 +8,21 @@ lang: en-US
 {% for section in site.sections %}
 
   {% capture rowclass %}
-    {% case section.type %}
+    {% case section.width %}
 
-      {% when 'container' %}
+      {% when 'fixed' %}
         justify-content-md-center
-      {% when 'container-fluid' %}
+      {% when 'full' %}
 
     {% endcase %}
   {% endcapture %}
 
   {% capture colclass %}
-    {% case section.type %}
+    {% case section.width %}
 
-      {% when 'container' %}
+      {% when 'fixed' %}
         col-12 col-md-10
-      {% when 'container-fluid' %}
+      {% when 'full' %}
         col-12
 
     {% endcase %}

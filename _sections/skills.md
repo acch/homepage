@@ -1,6 +1,6 @@
 ---
 title: Skills
-type: container
+width: fixed
 ---
 
 Primary skills:
