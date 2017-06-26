@@ -6,6 +6,7 @@ collections:
 exclude: [
   'Gemfile*',
   'Gruntfile.js',
+  'img/src',
   'imgsrc',
   'node_modules',
   'package.json',

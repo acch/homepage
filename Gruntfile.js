@@ -18,15 +18,59 @@ module.exports = function(grunt) {
 
     clean: {
       site: [
-        '<%= imagemin.site.dest %>*'
+        '<%= imagemin.site.dest %>*',
+        '<%= responsive_images.site.dest %>*'
       ]
+    },
+
+    copy: {
+      site: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            src: 'imgsrc/*.{png,jpg,gif}',
+            dest: 'img/src/'
+          }
+        ]
+      }
+    },
+
+    responsive_images: {
+      options: {
+        concurrency: 2,
+        sizes: [
+          {
+            name: '470',
+            width: 470
+          },
+          {
+            name: '650',
+            width: 650
+          },
+          {
+            name: '890',
+            width: 890
+          },
+          {
+            name: '1070',
+            width: 1070
+          }
+        ]
+      },
+      site: {
+        expand: true,
+        flatten: true,
+        src: 'imgsrc/resp/*.{png,jpg,gif}',
+        dest: 'img/src/'
+      }
     },
 
     imagemin: {
       site: {
         expand: true,
         flatten: true,
-        src: 'imgsrc/*.{png,jpg,gif}',
+        src: 'img/src/*.{png,jpg,gif}',
         dest: 'img/'
       }
     }
@@ -39,6 +83,8 @@ module.exports = function(grunt) {
   // default task
   grunt.registerTask('default', [
     'clean',
+    'copy',
+    'responsive_images',
     'imagemin'
   ]);
 

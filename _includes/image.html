@@ -1,0 +1,7 @@
+{% assign src = include.src | split: "." %}
+
+<img
+  srcset="{{ src[0] }}-470.{{ src[1] }} 470w, {{ src[0] }}-650.{{ src[1] }} 650w, {{ src[0] }}-890.{{ src[1] }} 890w, {{ src[0] }}-1070.{{ src[1] }} 1070w"
+  sizes="(min-width: 1200px) 1070px, (min-width: 992px) 890px, (min-width: 768px) 650px, (min-width: 576px) 470px, 100vw"
+  src="{{ src[0] }}-1070.{{ src[1] }}"
+  {% if include.alt %}alt="{{ include.alt }}"{% endif %} />
