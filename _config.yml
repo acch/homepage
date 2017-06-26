@@ -3,6 +3,8 @@ author: Achim Christ
 collections:
   sections:
     output: false
+compress_html:
+  comments: all
 exclude: [
   'Gemfile*',
   'Gruntfile.js',
