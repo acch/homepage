@@ -2,6 +2,17 @@ $base-color:        #2e3436;
 $base-color-light:  lighten($base-color, 10%);
 $base-color-dark:   darken($base-color, 10%);
 
+html {
+  //font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 17px;
+  }
+  @media (min-width: 992px) {
+    font-size: 18px;
+  }
+}
+
 body {
   background: $base-color url(/img/noise.png);
   background-repeat: repeat;

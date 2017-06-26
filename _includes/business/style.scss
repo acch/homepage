@@ -1,9 +1,30 @@
+html {
+  //font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 17px;
+  }
+  @media (min-width: 992px) {
+    font-size: 18px;
+  }
+}
+
 body {
   color: #162840;
 }
 
 h1 {
   margin-top: .5rem;
+}
+
+header, footer {
+  background-color: #4178be;
+  background-image: url("/img/ibm.png");
+  background-repeat: no-repeat;
+  background-position: 99% center;
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 nav a {
@@ -18,14 +39,8 @@ nav div {
   padding: 0 .5rem;
 }
 
-header, footer {
-  background-color: #4178be;
-  background-image: url("/img/ibm.png");
-  background-repeat: no-repeat;
-  background-position: 99% center;
-
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.card {
+  box-shadow: 0 1px 2px rgba(0,0,0,.25);
 }
 
 .jumbotron {
@@ -48,8 +63,4 @@ header, footer {
     top: 0;
     z-index: 1000;
   }
-}
-
-.card {
-  box-shadow: 0 1px 2px rgba(0,0,0,.25);
 }
