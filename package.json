@@ -2,16 +2,18 @@
   "name": "acch.github.io",
   "version": "1.0.0",
   "description": "Jekyll source for personal homepage",
-  "author": "Achim Christ",
-  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/acch/acch.github.io.git"
   },
+  "author": "Achim Christ",
   "bugs": {
     "url": "https://github.com/acch/acch.github.io/issues"
   },
-  "homepage": "https://acch.github.io/",
+  "homepage": "http://achim-christ.de",
   "devDependencies": {
     "grunt": ">=1.0.1",
     "grunt-contrib-clean": ">=1.1.0",
