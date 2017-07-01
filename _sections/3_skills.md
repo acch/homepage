@@ -3,7 +3,7 @@ title: Skills
 width: fixed
 ---
 
-Primary skills:
+##### Primary:
 (things I do every day)
 - IBM Software Defined Storage
 - Linux
@@ -13,7 +13,7 @@ Primary skills:
 - Nagios
 - Ansible
 
-Secondary skills:
+##### Secondary:
 (things I do regularly)
 - C/C++
 - Perl
@@ -25,7 +25,7 @@ Secondary skills:
 - Gimp
 - Inkscape
 
-Ancient skills:
+##### Ancient:
 (things I did in the past)
 - Java / J2EE
 - PHP
