@@ -9,4 +9,4 @@ I'm always in the process of learning something new, constantly trying to get my
 As a big nerd I'm particularly interested in storage, security, automation, web technologies, digital rights and digital culture, as well as Linux and open source software.
 When I'm not in front of a computer screen you'll find me listening to podcasts, taking pictures, cycling, running, or playing Nintendo Switch.
 
-My [personal website](https://byteshell.net) or my [GitHub profile](https://github.com/acch) are good starting points to learn more about how I <del>waste</del> spend my time. You can also read a more formal [resume](http://resume.achim-christ.de) if you wish.
+My [personal website](https://byteshell.net) or my [GitHub profile](https://github.com/acch) are good starting points to learn more about how I <del>waste</del> spend my time. You can also read a more formal [resume](http://resume.achim-christ.de) if you prefer.
