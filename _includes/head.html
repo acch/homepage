@@ -14,13 +14,13 @@
   {% include stylesheets.html %}
 
   {% if include.style %}
-    <!-- Custom inline CSS -->
-    <style type="text/css">
-      {% capture style %}
-        {% include {{ include.style }} %}
-      {% endcapture %}
-      {{ style | scssify }}
-    </style>
+  <!-- Custom inline CSS -->
+  <style type="text/css">
+    {% capture style %}
+      {% include {{ include.style }} %}
+    {% endcapture %}
+    {{ style | scssify }}
+  </style>
   {% endif %}
 
 </head>

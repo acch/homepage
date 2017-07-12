@@ -22,8 +22,9 @@ robots: noindex, nofollow
 
           <dt>
             <a href="{{ entry.href }}">{{ entry.title }}</a>
+
             {% if entry.sub %}
-              <small>({% if entry.sub.prefix %}{{ entry.sub.prefix }} {% endif %}<a href="{{ entry.sub.href }}">{{ entry.sub.title }}</a>)</small>
+            <small>({% if entry.sub.prefix %}{{ entry.sub.prefix }} {% endif %}<a href="{{ entry.sub.href }}">{{ entry.sub.title }}</a>)</small>
             {% endif %}
           </dt>
 
