@@ -1,6 +1,11 @@
-$base-color:        #2e3436;
-$base-color-light:  lighten($base-color, 10%);
-$base-color-dark:   darken($base-color, 10%);
+$base-color:          #2e3436;
+$base-color-light:    lighten($base-color, 10%);
+$base-color-dark:     darken($base-color, 10%);
+
+$text-color:          #eceeef;
+
+$accent-color-dark:   #84a242;
+$accent-color-light:  #c7f464;
 
 html {
   //font-size: 16px;
@@ -16,14 +21,14 @@ html {
 body {
   background: $base-color url(/img/noise.png);
   background-repeat: repeat;
-  color: #eceeef;
+  color: $text-color;
   padding-top: 1rem;
 }
 
 .nav-link,
 .nav-link:hover,
 .nav-link:focus {
-  color: darken(#eceeef, 30%);
+  color: darken($text-color, 30%);
   font-weight: 100;
   padding-top: 0;
   padding-bottom: 0;
@@ -42,6 +47,10 @@ a:focus {
 }
 
 .card-title::before {
+  background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   content: "\f111"; //fa-circle
   display: inline-block;
   font-family: FontAwesome;
