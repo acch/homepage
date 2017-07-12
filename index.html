@@ -33,7 +33,7 @@ lang: en-US
       {% endif %}
 
         {% if section.title != '_' %}
-        <h3 class="card-title">{{ section.title }}</h3>
+        <h3 class="card-title" id="{{ section.title | slugify }}">{{ section.title }}</h3>
         {% endif %}
 
         {{ section.content }}
