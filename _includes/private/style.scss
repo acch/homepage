@@ -16,8 +16,17 @@ html {
 body {
   background: $base-color url(/img/noise.png);
   background-repeat: repeat;
-
   color: #eceeef;
+  padding-top: 1rem;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
+  color: darken(#eceeef, 30%);
+  font-weight: 100;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 a,
@@ -30,6 +39,18 @@ a:focus {
 .card {
   background: $base-color-light;
   border: none;
+}
+
+.card-title::before {
+  content: "\f111"; //fa-circle
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 1.333rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: .666rem;
+  text-rendering: auto;
+  vertical-align: 3px;
 }
 
 .name {
