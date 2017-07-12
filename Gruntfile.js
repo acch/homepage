@@ -41,20 +41,20 @@ module.exports = function(grunt) {
         concurrency: 2,
         sizes: [
           {
-            name: '470',
-            width: 470
+            name: '510',
+            width: 510
           },
           {
-            name: '650',
-            width: 650
+            name: '690',
+            width: 690
           },
           {
-            name: '890',
-            width: 890
+            name: '930',
+            width: 930
           },
           {
-            name: '1070',
-            width: 1070
+            name: '1110',
+            width: 1110
           }
         ]
       },

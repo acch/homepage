@@ -1,8 +1,8 @@
 {% assign src = include.src | split: "." %}
 
 <img
-  srcset="{{ src[0] }}-470.{{ src[1] }} 470w, {{ src[0] }}-650.{{ src[1] }} 650w, {{ src[0] }}-890.{{ src[1] }} 890w, {{ src[0] }}-1070.{{ src[1] }} 1070w"
-  sizes="(min-width: 1200px) 1070px, (min-width: 992px) 890px, (min-width: 768px) 650px, (min-width: 576px) 470px, 100vw"
+  srcset="{{ src[0] }}-510.{{ src[1] }} 510w, {{ src[0] }}-690.{{ src[1] }} 690w, {{ src[0] }}-930.{{ src[1] }} 930w, {{ src[0] }}-1110.{{ src[1] }} 1110w"
+  sizes="(min-width: 1200px) 1110px, (min-width: 992px) 930px, (min-width: 768px) 690px, (min-width: 576px) 510px, 100vw"
   src="{{ src[0] }}-1070.{{ src[1] }}"
   class="img-fluid"
   {% if include.alt %}alt="{{ include.alt }}"{% endif %} />

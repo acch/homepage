@@ -27,7 +27,10 @@ lang: en-US
 
   <div class="row {{ rowclass | strip }}">
     <div class="{{ colclass | strip }}">
+
+      {% if section.width != 'full' %}
       <div class="card card-block">
+      {% endif %}
 
         {% if section.title != '_' %}
         <h3 class="card-title">{{ section.title }}</h3>
@@ -35,7 +38,10 @@ lang: en-US
 
         {{ section.content }}
 
+      {% if section.width != 'full' %}
       </div><!-- /card -->
+      {% endif %}
+
     </div><!-- /col -->
   </div><!-- /row -->
 
