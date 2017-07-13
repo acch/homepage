@@ -24,6 +24,7 @@ body {
   background-repeat: repeat;
   color: $text-color;
   padding-top: 1rem;
+  position: relative;
 }
 
 a,
@@ -76,6 +77,9 @@ img {
   font-weight: 100;
   padding-top: 0;
   padding-bottom: 0;
+}
+.nav-link.active {
+  color: $text-color;
 }
 
 .navbar {
