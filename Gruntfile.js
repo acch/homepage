@@ -39,6 +39,7 @@ module.exports = function(grunt) {
     responsive_images: {
       options: {
         concurrency: 2,
+        quality: 85,
         sizes: [
           {
             name: '510',
