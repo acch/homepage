@@ -12,6 +12,7 @@ exclude: [
   'imgsrc',
   'node_modules',
   'package.json',
+  'package-lock.json',
   'README.md']
 width_fixed_col: col-12 col-md-10
 width_full_col: col-12
