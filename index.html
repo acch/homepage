@@ -5,16 +5,9 @@ description:
 lang: en-US
 ---
 
-{% for section in site.sections %}
+<div class="row justify-content-center align-items-center">
 
-  {% capture rowclass %}
-    {% case section.width %}
-      {% when 'fixed' %}
-        {{ site.width_fixed_row }}
-      {% when 'full' %}
-        {{ site.width_full_row }}
-    {% endcase %}
-  {% endcapture %}
+{% for section in site.sections %}
 
   {% capture colclass %}
     {% case section.width %}
@@ -22,31 +15,30 @@ lang: en-US
         {{ site.width_fixed_col }}
       {% when 'full' %}
         {{ site.width_full_col }}
+      {% when 'half' %}
+        {{ site.width_half_col }}
     {% endcase %}
   {% endcapture %}
 
-  <div class="row {{ rowclass | strip }}">
-    <div class="{{ colclass | strip }}">
+  <!-- section column -->
+  <div class="{{ colclass | strip }}">
 
-      {% if section.width != 'full' %}
-      <div class="card card-block">
+    <!-- section card -->
+    {% if section.title != '_' %}
+    <div class="card card-block">
+
+      <!-- section title -->
+      <h3 class="card-title" id="{{ section.title | slugify }}">{{ section.title }}</h3>
       {% endif %}
 
-        {% if section.title != '_' %}
-        <h3 class="card-title" id="{{ section.title | slugify }}">{{ section.title }}</h3>
-        {% endif %}
+      {{ section.content }}
 
-        {{ section.content }}
+    {% if section.title != '_' %}
+    </div><!-- /card -->
+    {% endif %}
 
-      {% if section.width != 'full' %}
-      </div><!-- /card -->
-      {% endif %}
-
-    </div><!-- /col -->
-  </div><!-- /row -->
-
-  <div class="row">
-    <div class="col">&nbsp;</div>
-  </div>
+  </div><!-- /col -->
 
 {% endfor %}
+
+</div><!-- /row -->

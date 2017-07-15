@@ -13,8 +13,7 @@ exclude: [
   'node_modules',
   'package.json',
   'README.md']
-width_fixed_row: justify-content-md-center
 width_fixed_col: col-12 col-md-10
-width_full_row:
 width_full_col: col-12
+width_half_col: col-12 col-md-5
 canonical: https://www.achim-christ.de

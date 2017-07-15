@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     clean: {
       site: [
         '<%= imagemin.site.dest %>*',
-        '<%= responsive_images.site.dest %>*'
+        '<%= responsive_images.resp_hero.dest %>*'
       ]
     },
 
@@ -37,32 +37,60 @@ module.exports = function(grunt) {
     },
 
     responsive_images: {
-      options: {
-        concurrency: 2,
-        quality: 85,
-        sizes: [
-          {
-            name: '510',
-            width: 510
-          },
-          {
-            name: '690',
-            width: 690
-          },
-          {
-            name: '930',
-            width: 930
-          },
-          {
-            name: '1110',
-            width: 1110
-          }
-        ]
-      },
-      site: {
+      resp_hero: {
+        options: {
+          concurrency: 2,
+          quality: 85,
+          sizes: [
+            {
+              name: '510',
+              width: 510
+            },
+            {
+              name: '690',
+              width: 690
+            },
+            {
+              name: '930',
+              width: 930
+            },
+            {
+              name: '1110',
+              width: 1110
+            }
+          ]
+        },
         expand: true,
         flatten: true,
-        src: 'imgsrc/resp/*.{png,jpg,gif}',
+        src: 'imgsrc/resp_hero/*.{png,jpg,gif}',
+        dest: 'img/src/'
+      },
+      resp_small: {
+        options: {
+          concurrency: 2,
+          quality: 85,
+          sizes: [
+            {
+              name: '270',
+              width: 270
+            },
+            {
+              name: '370',
+              width: 370
+            },
+            {
+              name: '445',
+              width: 445
+            },
+            {
+              name: '510',
+              width: 510
+            }
+          ]
+        },
+        expand: true,
+        flatten: true,
+        src: 'imgsrc/resp_small/*.{png,jpg,gif}',
         dest: 'img/src/'
       }
     },
