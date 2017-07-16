@@ -23,7 +23,7 @@ body {
   background: $base-color url(/img/noise.png);
   background-repeat: repeat;
   color: $text-color;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
   position: relative;
 }
 
@@ -91,4 +91,8 @@ img {
   border: 1px solid $accent-color-dark;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
 }
