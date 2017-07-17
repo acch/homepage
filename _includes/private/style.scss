@@ -66,6 +66,13 @@ img {
   z-index: -1;
 }
 
+.logo {
+  width: auto;
+  max-height: 150px;
+  padding: 1rem;
+  z-index: 1;
+}
+
 .name {
   font-size: 4rem;
   text-transform: uppercase;
