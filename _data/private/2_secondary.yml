@@ -3,28 +3,37 @@ subheading: things I do regularly
 entries:
 
 - title: C/C++
-  href:
+  href: http://www.cplusplus.com/
+  img: c++.png
 
 - title: Perl
-  href:
+  href: https://www.perl.org/
+  img: perl.png
 
 - title: Docker
-  href:
+  href: https://www.docker.com/
+  img: docker.png
 
 - title: HTML5
-  href:
+  href: https://www.w3.org/html/
+  img: html.png
 
 - title: CSS3
-  href:
+  href: https://www.w3.org/Style/CSS/
+  img: css.png
 
 - title: JavaScript
-  href:
+  href: https://www.javascript.com/
+  img: javascript.png
 
 - title: XML / XSLT
-  href:
+  href: https://www.w3.org/XML/
+  img:
 
 - title: Gimp
-  href:
+  href: https://www.gimp.org/
+  img: gimp.png
 
 - title: Inkscape
-  href:
+  href: https://inkscape.org/
+  img: inkscape.png
