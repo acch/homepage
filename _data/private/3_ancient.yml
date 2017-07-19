@@ -3,13 +3,17 @@ subheading: things I did in the past
 entries:
 
 - title: Java / J2EE
-  href:
+  href: https://www.java.com/
+  img: java.png
 
 - title: PHP
-  href:
+  href: http://php.net/
+  img: php.png
 
 - title: SQL
-  href:
+  href: https://www.iso.org/standard/63555.html
+  img: sql.png
 
 - title: Ruby
-  href:
+  href: https://www.ruby-lang.org/
+  img: ruby.png
