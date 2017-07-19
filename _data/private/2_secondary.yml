@@ -2,8 +2,8 @@ heading: Secondary
 subheading: things I do regularly
 entries:
 
-- title: C/C++
-  href: http://www.cplusplus.com/
+- title: C / C++
+  href: https://isocpp.org/
   img: c++.png
 
 - title: Perl
@@ -23,12 +23,12 @@ entries:
   img: css.png
 
 - title: JavaScript
-  href: https://www.javascript.com/
+  href: https://developer.mozilla.org/en-US/docs/Web/JavaScript
   img: javascript.png
 
 - title: XML / XSLT
   href: https://www.w3.org/XML/
-  img:
+  img: xml.png
 
 - title: Gimp
   href: https://www.gimp.org/
