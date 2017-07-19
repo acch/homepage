@@ -41,7 +41,14 @@ a:focus {
   margin-bottom: 1rem;
 }
 
-.card-title::before {
+.gradient {
+  background: linear-gradient(to right, rgba(0,0,0,.6), transparent 25%, transparent 75%, rgba(0,0,0,.6));
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+h3::before {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
   background-clip: text;
   color: transparent;
@@ -55,10 +62,25 @@ a:focus {
   vertical-align: 3px;
 }
 
-.gradient {
-  background: linear-gradient(to right, rgba(0,0,0,.6), transparent 25%, transparent 75%, rgba(0,0,0,.6));
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+h5::before {
+  background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
+  background-clip: text;
+  color: transparent;
+  content: "\f10c"; //fa-circle-o
+  font-family: FontAwesome;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-left: .333rem;
+  padding-right: .666rem;
+  text-rendering: auto;
+  vertical-align: 1px;
+}
+
+.icon {
+  background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
+  background-clip: text;
+  color: transparent;
 }
 
 img {
