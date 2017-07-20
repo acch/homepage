@@ -25,6 +25,7 @@ body {
   color: $text-color;
   padding-top: 2.5rem;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 a,
@@ -75,6 +76,9 @@ h5::before {
   padding-right: .75rem;
   text-rendering: auto;
   vertical-align: 1px;
+}
+h5::after {
+  border: 1px solid;
 }
 
 .icon {
