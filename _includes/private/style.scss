@@ -62,6 +62,10 @@ h3::before {
   vertical-align: 3px;
 }
 
+h5 {
+  padding-left: 1.9rem;
+  text-indent: -1.9rem;
+}
 h5::before {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
   background-clip: text;
@@ -72,12 +76,9 @@ h5::before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 3px;
-  padding-right: .75rem;
+  padding-right: .85rem;
   text-rendering: auto;
   vertical-align: 1px;
-}
-h5::after {
-  border: 1px solid;
 }
 
 .icon {
