@@ -21,14 +21,14 @@ lang: en-US
   {% endcapture %}
 
   <!-- section column -->
-  <div class="{{ colclass | strip }}">
+  <div class="{{ colclass | strip }}" id="{{ section.title | slugify }}">
 
     <!-- section card -->
     {% if section.title != '_' %}
     <div class="card card-block">
 
       <!-- section title -->
-      <h3 class="card-title" id="{{ section.title | slugify }}">{{ section.title }}</h3>
+      <h3 class="card-title">{{ section.title }}</h3>
       {% endif %}
 
       {{ section.content }}
