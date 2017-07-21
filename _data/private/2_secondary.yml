@@ -14,11 +14,11 @@ entries:
   href: https://www.docker.com/
   img: docker.png
 
-- title: HTML5
+- title: HTML
   href: https://www.w3.org/html/
   img: html.png
 
-- title: CSS3
+- title: CSS
   href: https://www.w3.org/Style/CSS/
   img: css.png
 
