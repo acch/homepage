@@ -11,28 +11,26 @@ robots: noindex, nofollow
 {% for category_hash in datafiles %}
   {% assign category = category_hash[1] %}
 
-  <div class="card mb-5">
-    <div class="card-block">
+  <section class="[ card card-block ] mb-5">
 
-      <h2 id="{{ category.heading | slugify }}" class="card-title">{{ category.heading }}</h2>
+    <h2 id="{{ category.heading | slugify }}" class="card-title">{{ category.heading }}</h2>
 
-      <dl class="card-text ml-3">
+    <dl class="card-text ml-3">
 
-        {% for entry in category.entries %}
+      {% for entry in category.entries %}
 
-          <dt>
-            <a href="{{ entry.href }}">{{ entry.title }}</a>
+        <dt>
+          <a href="{{ entry.href }}">{{ entry.title }}</a>
 
-            {% if entry.sub %}
-            <small>({% if entry.sub.prefix %}{{ entry.sub.prefix }} {% endif %}<a href="{{ entry.sub.href }}">{{ entry.sub.title }}</a>)</small>
-            {% endif %}
-          </dt>
+          {% if entry.sub %}
+          <small>({% if entry.sub.prefix %}{{ entry.sub.prefix }} {% endif %}<a href="{{ entry.sub.href }}">{{ entry.sub.title }}</a>)</small>
+          {% endif %}
+        </dt>
 
-        {% endfor %}
+      {% endfor %}
 
-      </dl>
+    </dl>
 
-    </div><!-- /card-block -->
-  </div><!-- /card -->
+  </section><!-- /card -->
 
 {% endfor %}
