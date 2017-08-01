@@ -14,6 +14,8 @@ exclude: [
   'package.json',
   'package-lock.json',
   'README.md']
+include: [
+  '_headers']
 width_fixed_col: col-12 col-md-10
 width_full_col: col-12
 width_half_col: col-12 col-md-5
