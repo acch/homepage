@@ -35,19 +35,6 @@ a:focus {
   font-weight: bold;
 }
 
-.card {
-  background: $base-color-light;
-  border: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.gradient {
-  background: linear-gradient(to right, rgba(0,0,0,.6), transparent 25%, transparent 75%, rgba(0,0,0,.6));
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 h3::before {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
   background-clip: text;
@@ -81,15 +68,33 @@ h5::before {
   vertical-align: 1px;
 }
 
+img {
+  position: relative;
+  z-index: -1;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card {
+  background: $base-color-light;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.gradient {
+  background: linear-gradient(to right, rgba(0,0,0,.6), transparent 25%, transparent 75%, rgba(0,0,0,.6));
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .icon {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
   background-clip: text;
   color: transparent;
-}
-
-img {
-  position: relative;
-  z-index: -1;
 }
 
 .logo {
@@ -112,6 +117,7 @@ img {
 .nav-link:focus {
   color: darken($text-color, 30%);
   font-weight: 100;
+  user-select: none;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -124,9 +130,4 @@ img {
   border: 1px solid $accent-color-dark;
   padding-top: 0;
   padding-bottom: 0;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
 }
