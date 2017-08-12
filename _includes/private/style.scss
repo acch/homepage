@@ -117,7 +117,7 @@ ul {
 .nav-link:focus {
   color: darken($text-color, 30%);
   font-weight: 100;
-  user-select: none;
+  outline : none;
   padding-top: 0;
   padding-bottom: 0;
 }
