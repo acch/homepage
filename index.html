@@ -24,13 +24,13 @@ lang: en-US
 
     <!-- section card -->
     {% if section.title != '_' %}
-    <section class="card card-block">
+    <section class="card card-body">
 
       <!-- section title -->
       <h3 class="card-title">{{ section.title }}</h3>
       {% endif %}
 
-      {{ section.content }}
+      {{ section.content | replace: '<p>', '<p class="card-text">' | replace: '<ul>', '<ul class="card-text">' | replace: '<h5>', '<h5 class="card-text">' }}
 
     {% if section.title != '_' %}
     </section><!-- /card -->
