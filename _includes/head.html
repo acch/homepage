@@ -8,7 +8,7 @@
   <meta name="robots" content="{{ page.robots | default: 'index, follow' }}">
 
   <title itemprop="name">{{ page.title | default: site.title | escape }}</title>
-  <meta name="description" content="{{ page.description | default: site.description | truncate: 160 | escape }}">
+  <meta name="description" itemprop="description" content="{{ page.description | default: site.description | truncate: 160 | escape }}">
 
   <link rel="canonical" href="{{ site.canonical }}{{ page.url | replace: 'index.html', '' | relative_url }}">
   <link itemprop="url" href="{{ site.canonical }}{{ page.url | replace: 'index.html', '' | relative_url }}">
