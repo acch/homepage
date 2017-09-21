@@ -19,8 +19,14 @@ lang: en-US
     {% endcase %}
   {% endcapture %}
 
+  {% capture sectionid %}
+    {% if section.title != '_' %}
+      id="{{ section.title | slugify }}"
+    {% endif %}
+  {% endcapture %}
+
   <!-- section column -->
-  <div id="{{ section.title | slugify }}" class="{{ colclass | strip }}">
+  <div {{ sectionid }} class="{{ colclass | strip }}">
 
     <!-- section card -->
     {% if section.title != '_' %}
@@ -40,4 +46,4 @@ lang: en-US
 
 {% endfor %}
 
-</div><!-- /row -->
+</main><!-- /row -->
