@@ -7,7 +7,7 @@ layout: compress
 
   {% include head.html style='business/style.scss' %}
 
-  <body>
+  <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
     <header class="container-fluid">&nbsp;</header>
 
@@ -26,11 +26,11 @@ layout: compress
       </div><!-- /lead -->
     </div><!-- /container -->
 
-    <div class="container">
+    <main role="main" class="container">
 
       {{ content }}
 
-    </div><!-- /container -->
+    </main><!-- /container -->
 
     <footer class="container-fluid mt-5">&nbsp;</footer>
 

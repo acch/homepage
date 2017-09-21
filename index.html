@@ -4,7 +4,7 @@ description: "Personal Homepage of Achim Christ - Digital Jet Jockey: About, Exp
 lang: en-US
 ---
 
-<div class="row justify-content-center align-items-center">
+<main role="main" class="row justify-content-center align-items-center">
 
 {% for section in site.sections %}
 
@@ -20,7 +20,7 @@ lang: en-US
   {% endcapture %}
 
   <!-- section column -->
-  <div class="{{ colclass | strip }}" id="{{ section.title | slugify }}">
+  <div id="{{ section.title | slugify }}" class="{{ colclass | strip }}">
 
     <!-- section card -->
     {% if section.title != '_' %}
