@@ -31,6 +31,10 @@ entries:
 
 - title: Storwize V7000 Unified ACL Modes and Migration Options
   href: https://w3-connections.ibm.com/communities/service/html/communityview?communityUuid=62403fe9-4746-4951-acff-b7f0d6b9e82c#fullpageWidgetId=W25416ac37406_4b77_99ff_038b83771f61&file=50ae52c6-a941-4b58-8493-93cdccf7f4de
+  sub:
+    prefix: Published on
+    title: Techdocs
+    href: https://www.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102693
 
 - title: A TPC Standby Solution &ndash; User's Guide
   href: https://w3-connections.ibm.com/files/app#/file/4a72b372-98ce-426c-b7de-c08648b256cf
