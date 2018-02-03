@@ -35,15 +35,6 @@ a:focus {
   font-weight: bold;
 }
 
-h1 {
-  text-shadow: 0 1px 0 #ccc,
-               0 2px 0 #c9c9c9,
-               0 3px 0 #bbb,
-               0 4px 0 #b9b9b9,
-               0 5px 0 #aaa,
-               0 6px 0 #a9a9a9
-}
-
 h3::before {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
   background-clip: text;
@@ -121,22 +112,27 @@ ul {
   font-size: 5rem;
 }
 
-.nav-link,
-.nav-link:hover,
-.nav-link:focus {
-  color: darken($text-color, 30%);
-  font-weight: 100;
-  outline : none;
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.nav-link.active {
-  color: $text-color;
-}
-
 .navbar {
   background: $base-color-dark;
   border: 1px solid $accent-color-dark;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.nav-item {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.nav-link,
+.nav-link:hover,
+.nav-link:focus {
+  color: darken($text-color, 30%);
+  font-weight: 100;
+  outline: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nav-link.active {
+  color: $text-color;
 }
