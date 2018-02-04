@@ -27,6 +27,11 @@ header, footer {
   padding-bottom: 1rem;
 }
 
+dl {
+  padding-left: .75rem;
+  text-indent: -.75rem;
+}
+
 nav a {
   &,
   &:focus,
@@ -37,6 +42,10 @@ nav a {
 
 nav div {
   padding: 0 .5rem;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 .card {
