@@ -37,12 +37,13 @@ a:focus {
 
 h3::before {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   color: transparent;
   content: "\f111"; //fa-circle
   font-family: FontAwesome;
   font-size: 1.333rem;
-  -webkit-font-smoothing: antialiased;
+   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-right: .666rem;
   text-rendering: auto;
@@ -55,12 +56,13 @@ h5 {
 }
 h5::before {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   color: transparent;
   content: "\f10c"; //fa-circle-o
   font-family: FontAwesome;
   font-size: 1rem;
-  -webkit-font-smoothing: antialiased;
+   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 3px;
   padding-right: .85rem;
@@ -97,7 +99,8 @@ ul {
 
 .icon {
   background: linear-gradient(to top, $accent-color-dark, $accent-color-light);
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
   color: transparent;
 }
 
