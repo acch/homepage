@@ -15,8 +15,8 @@
   },
   "homepage": "http://achim-christ.de",
   "devDependencies": {
-    "autoprefixer": "^7.2.5",
-    "grunt": "^1.0.2",
+    "autoprefixer": "^7.2.6",
+    "grunt": "^1.0.3",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-imagemin": "^2.0.1",
