@@ -1,7 +1,8 @@
 {
-  "name": "acch.github.io",
+  "name": "homepage",
   "version": "1.0.0",
   "description": "Jekyll source for personal homepage",
+  "homepage": "https://www.achim-christ.de/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

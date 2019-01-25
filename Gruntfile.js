@@ -3,7 +3,7 @@
    --------------------------------------------------------------------------
 
    This file is part of Achim Christ's personal homepage.
-   https://acch.github.io/
+   https://www.achim-christ.de/
 
    Copyright 2017 Achim Christ
 

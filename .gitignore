@@ -1,3 +1,4 @@
+.bundle/
 _includes/*/style.scss
 _site/
 img/

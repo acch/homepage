@@ -1,4 +1,4 @@
-# Home page of Achim Christ
+# Homepage of Achim Christ
 
 Made with https://jekyllrb.com
 
