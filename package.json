@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "homepage": "http://achim-christ.de",
   "author": "Achim Christ",
+  "private": true,
   "engines": {
     "node": ">=6"
   },
