@@ -17,15 +17,14 @@ html {
   @media (min-width: 992px) {
     font-size: 18px;
   }
+
+  scroll-behavior: smooth;
 }
 
 body {
-  background: $base-color url(/img/noise.png);
-  background-repeat: repeat;
+  background: $base-color url(/img/noise.png) repeat;
   color: $text-color;
   padding-top: 2.5rem;
-  position: relative;
-  scroll-behavior: smooth;
 }
 
 a,
