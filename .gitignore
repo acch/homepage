@@ -1,4 +1,5 @@
 .bundle/
+.jekyll-cache/
 _includes/*/style.scss
 _site/
 img/
