@@ -18,13 +18,17 @@ html {
     font-size: 18px;
   }
 
+  overflow: scroll;
   scroll-behavior: smooth;
+  //scroll-padding-top: 1rem;
+  scroll-snap-type: y proximity;
 }
 
 body {
   background: $base-color url(/img/noise.png) repeat;
   color: $text-color;
   padding-top: 2.5rem;
+  scroll-snap-align: start;
 }
 
 a,
@@ -72,6 +76,10 @@ h5::before {
 img {
   position: relative;
   z-index: -1;
+}
+
+main > div {
+  scroll-snap-align: start;
 }
 
 ul {
