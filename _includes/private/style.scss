@@ -18,9 +18,7 @@ html {
     font-size: 18px;
   }
 
-  overflow: scroll;
   scroll-behavior: smooth;
-  //scroll-padding-top: 1rem;
   scroll-snap-type: y proximity;
 }
 
