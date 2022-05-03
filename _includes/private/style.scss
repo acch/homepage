@@ -90,8 +90,7 @@ ul {
 .card {
   background: $base-color-light;
   border: none;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .display-4 {
@@ -100,8 +99,7 @@ ul {
 
 .gradient {
   background: linear-gradient(to right, rgba(0,0,0,.6), transparent 25%, transparent 75%, rgba(0,0,0,.6));
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .icon {
@@ -120,6 +118,8 @@ ul {
 
 .name {
   font-size: 4rem;
+  margin-top: .5rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 .name span {
