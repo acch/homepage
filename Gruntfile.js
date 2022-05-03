@@ -19,8 +19,7 @@ module.exports = function(grunt) {
     clean: {
       site: [
         '<%= imagemin.site.dest %>*',
-        '<%= responsive_images.resp_hero.dest %>*',
-        '_includes/*/style.scss'
+        '<%= responsive_images.resp_hero.dest %>*'
       ]
     },
 
@@ -105,20 +104,6 @@ module.exports = function(grunt) {
       }
     },
 
-    postcss: {
-      options: {
-        processors: [
-          //require('autoprefixer')
-        ]
-      },
-      site: {
-        files: {
-          '_includes/private/style.scss': 'scss/private.scss',
-          '_includes/business/style.scss': 'scss/business.scss'
-        }
-      }
-    }
-
   });
 
   // load the plugin(s)
@@ -129,8 +114,7 @@ module.exports = function(grunt) {
     'clean',
     'copy',
     'responsive_images',
-    'imagemin',
-    'postcss'
+    'imagemin'
   ]);
 
 };

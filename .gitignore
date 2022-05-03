@@ -1,6 +1,5 @@
 .bundle/
 .jekyll-cache/
-_includes/*/style.scss
 _site/
 img/
 node_modules/
