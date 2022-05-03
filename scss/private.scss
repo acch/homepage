@@ -43,14 +43,14 @@ h3::before {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  content: "\f111"; //fa-circle
-  font-family: FontAwesome;
+  content: "\F287"; //bi-circle-fill
+  font-family: bootstrap-icons;
   font-size: 1.333rem;
    -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-right: .666rem;
   text-rendering: auto;
-  vertical-align: 3px;
+  vertical-align: -1px;
 }
 
 h5 {
@@ -62,15 +62,15 @@ h5::before {
   -webkit-background-clip: text;
           background-clip: text;
   color: transparent;
-  content: "\f10c"; //fa-circle-o
-  font-family: FontAwesome;
+  content: "\F28A"; //bi-circle
+  font-family: bootstrap-icons;
   font-size: 1rem;
    -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 3px;
   padding-right: .85rem;
   text-rendering: auto;
-  vertical-align: 1px;
+  vertical-align: -2px;
 }
 
 img {
