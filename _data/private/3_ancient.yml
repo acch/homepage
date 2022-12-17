@@ -1,19 +1,18 @@
 heading: Ancient
 subheading: things I did in the past
 entries:
+  - title: Java
+    href: https://www.java.com/
+    img: java.png
 
-- title: Java / J2EE
-  href: https://www.java.com/
-  img: java.png
+  - title: Perl
+    href: https://www.perl.org/
+    img: perl.png
 
-- title: PHP
-  href: http://php.net/
-  img: php.png
+  - title: PHP
+    href: http://php.net/
+    img: php.png
 
-- title: SQL
-  href: https://www.iso.org/standard/63555.html
-  img: sql.png
-
-- title: Ruby
-  href: https://www.ruby-lang.org/
-  img: ruby.png
+  - title: Ruby
+    href: https://www.ruby-lang.org/
+    img: ruby.png

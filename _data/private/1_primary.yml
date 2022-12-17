@@ -1,31 +1,30 @@
 heading: Primary
 subheading: things I do every day
 entries:
+  - title: IBM Software Defined Storage
+    href: https://www.ibm.com/storage/software-defined-storage
+    img: spectrum.png
 
-- title: IBM Software Defined Storage
-  href: https://www.ibm.com/storage/software-defined-storage
-  img: spectrum.png
+  - title: Linux
+    href: https://www.linuxfoundation.org/
+    img: linux.png
 
-- title: Linux
-  href: https://www.linuxfoundation.org/
-  img: linux.png
+  - title: KVM
+    href: https://www.linux-kvm.org/
+    img: kvm.png
 
-- title: KVM
-  href: https://www.linux-kvm.org/
-  img: kvm.png
+  - title: Bash
+    href: https://www.gnu.org/software/bash/
+    img: bash.png
 
-- title: Bash
-  href: https://www.gnu.org/software/bash/
-  img: bash.png
+  - title: Git
+    href: https://git-scm.com/
+    img: git.png
 
-- title: Git
-  href: https://git-scm.com/
-  img: git.png
+  - title: Ansible
+    href: https://www.ansible.com/
+    img: ansible.png
 
-- title: Nagios
-  href: https://www.nagios.org/
-  img: nagios.png
-
-- title: Ansible
-  href: https://www.ansible.com/
-  img: ansible.png
+  - title: Terraform
+    href: https://www.terraform.io/
+    img: terraform.png
