@@ -11,3 +11,4 @@ width: half
 - <i class="icon [ bi bi-github ]" aria-hidden="true"></i>&nbsp; <a rel="me" href="https://github.com/acch">GitHub</a>
 - <i class="icon [ bi bi-twitter ]" aria-hidden="true"></i>&nbsp; <a rel="me" href="https://twitter.com/ChristAchim">Twitter</a>
 - <i class="icon [ bi bi-mastodon ]" aria-hidden="true"></i>&nbsp; <a rel="me" href="https://mastodon.social/@acch">Mastodon</a>
+- <i class="icon [ bi bi-linkedin ]" aria-hidden="true"></i>&nbsp; <a rel="me" href="https://www.linkedin.com/in/achim-christ">LinkedIn</a>
