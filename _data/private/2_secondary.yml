@@ -1,10 +1,6 @@
 heading: Secondary
 subheading: things I do regularly
 entries:
-  - title: C / C++
-    href: https://isocpp.org/
-    img: c++.png
-
   - title: Jenkins
     href: https://www.jenkins.io/
     img: jenkins.png

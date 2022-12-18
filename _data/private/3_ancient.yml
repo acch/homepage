@@ -1,6 +1,10 @@
 heading: Ancient
 subheading: things I did in the past
 entries:
+  - title: C / C++
+    href: https://isocpp.org/
+    img: c++.png
+
   - title: Java
     href: https://www.java.com/
     img: java.png
