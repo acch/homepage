@@ -1,6 +1,10 @@
 heading: Secondary
 subheading: things I do regularly
 entries:
+  - title: Golang
+    href: https://go.dev/
+    img: go.png
+
   - title: Jenkins
     href: https://www.jenkins.io/
     img: jenkins.png
