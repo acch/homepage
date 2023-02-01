@@ -1,8 +1,8 @@
 heading: Primary
 subheading: things I do every day
 entries:
-  - title: IBM Software Defined Storage
-    href: https://www.ibm.com/storage/software-defined-storage
+  - title: IBM Software-Defined Storage
+    href: https://www.ibm.com/software-defined-storage
     img: spectrum.png
 
   - title: Linux
