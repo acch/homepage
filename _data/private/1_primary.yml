@@ -11,7 +11,7 @@ entries:
 
   - title: KVM
     href: https://www.linux-kvm.org/
-    img: kvm.png
+    img: kvm-new.png
 
   - title: Bash
     href: https://www.gnu.org/software/bash/
