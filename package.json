@@ -20,7 +20,7 @@
     "url": "https://github.com/acch/homepage/issues"
   },
   "dependencies": {
-    "grunt": "^1.5.2",
+    "grunt": "^1.6.1",
     "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-imagemin": "^4.0.0",
